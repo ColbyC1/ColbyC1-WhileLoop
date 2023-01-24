@@ -32,11 +32,15 @@ public class WhileLoop {
      *            (exclusive - for example, when end is 5, we calculate 0+1+2+3+4)
      *
      **/
+
     public int whileExample(int end){
         int sum = 0;
         int i = 0;
 
-//        code here
+        while(i < end) {
+            sum+=i;
+            i++;
+        }
 
         return sum;
     }
